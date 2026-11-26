@@ -193,7 +193,7 @@ importers:
         version: 10.0.1(eslint@10.15.0)
       '@vitest/coverage-v8':
         specifier: ^5.1.0
-        version: 5.1.0(vitest@5.1.1)
+        version: 5.1.1(vitest@5.1.1)
       '@xmldom/xmldom':
         specifier: ^0.9.12
         version: 0.9.12
@@ -208,7 +208,7 @@ importers:
         version: 2.0.0
       vitest:
         specifier: ^5.1.0
-        version: 5.1.1(@vitest/coverage-v8@5.1.0)(vite@8.3.6)
+        version: 5.1.1(@vitest/coverage-v8@5.1.1)(vite@8.3.6)
 
 packages:
 
@@ -437,11 +437,11 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@vitest/coverage-v8@5.1.0':
-    resolution: {integrity: sha512-OY9aShBQG5KOIw2zCo9fDoCHI9RHliNHJ//nM7m6jGg41Hyke9JOGWmeMlK74xYErsxMoK8mIB3gAeEyFVA7LA==}
+  '@vitest/coverage-v8@5.1.1':
+    resolution: {integrity: sha512-xL4NkbVx/UqqDHaXSOyvB8qsSoLQ+dVNGR9H2Bh/4ggQtmaPFNPUC9gZQwKZePLOQ6WDcgwXVnPulFW9eCHt0w==}
     peerDependencies:
-      '@vitest/browser': 5.1.0
-      vitest: 5.1.0
+      '@vitest/browser': 5.1.1
+      vitest: 5.1.1
     peerDependenciesMeta:
       '@vitest/browser':
         optional: true
@@ -1164,7 +1164,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@vitest/coverage-v8@5.1.0(vitest@5.1.1)':
+  '@vitest/coverage-v8@5.1.1(vitest@5.1.1)':
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
       '@vitest/istanbul-lib-coverage': 2.1.0
@@ -1174,7 +1174,7 @@ snapshots:
       obug: 3.0.0
       std-env: 4.3.0
       tinyrainbow: 3.2.0
-      vitest: 5.1.1(@vitest/coverage-v8@5.1.0)(vite@8.3.6)
+      vitest: 5.1.1(@vitest/coverage-v8@5.1.1)(vite@8.3.6)
 
   '@vitest/istanbul-lib-coverage@2.1.0': {}
 
@@ -1613,7 +1613,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitest@5.1.1(@vitest/coverage-v8@5.1.0)(vite@8.3.6):
+  vitest@5.1.1(@vitest/coverage-v8@5.1.1)(vite@8.3.6):
     dependencies:
       '@types/chai': 5.2.3
       '@vitest/mocker': 5.1.1(vite@8.3.6)
@@ -1630,7 +1630,7 @@ snapshots:
       vite: 8.3.6
       why-is-node-running: 3.2.1
     optionalDependencies:
-      '@vitest/coverage-v8': 5.1.0(vitest@5.1.1)
+      '@vitest/coverage-v8': 5.1.1(vitest@5.1.1)
     transitivePeerDependencies:
       - msw
 
