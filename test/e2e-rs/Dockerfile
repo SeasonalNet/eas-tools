@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1.7
+# syntax=docker/dockerfile:1.29
 
 ARG CHROMIUM_PACKAGE=chromium-headless-shell
 ARG CHROMIUM_BINARY=/usr/lib/chromium/chromium-headless-shell
